@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Reserva de horas</title>
+
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+<!-- Se define el cuerpo del formulario-->
+    <h1>Reserva de horas</h1>
+    <form class="form-register" onsubmit="validar();">
+        <div class="contenedor-inputs">
+            <input type="text" id="rut" name="rut" placeholder="RUT (Formato: 12.345.678-9)" class="inputcss" value="">
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu Nombre" class="inputcss">
+            <input type="text" id="apellidos" name="apellidos" placeholder="Ingresa tu Apellido" class="inputcss">
+            <input type="text" id="edad" name="edad" placeholder="Ingresa tu Edad" class="inputcss">
+            <input type="text" id="correo" name="correo" placeholder="Ingrese su Correo (Formato: ejemplo@mail.cl)" class="inputcss">
+            <!-- Se crea un scroll con las diferentes especialidades médicas-->
+            <select id="especialidad" name="especialidad" placeholder="Ingrese la especialidad" class="inputcss">
+                    <option value="Medicina General">Medicina General</option>
+                    <option value="Cardiología">Cardiología</option>
+                    <option value="Pediatría">Pediatría</option>
+                    <option value="Psiquiatría">Psiquiatría</option>
+            </select>
+            <!-- Se crea un scroll con las diferentes horas médicas disponibles para cada especialidad-->
+            <input type="text" id="fecha" name="fecha" placeholder="Fecha (Formato: 01/01/2020)" class="inputcss">
+            <select id="hora" name="hora" placeholder="Ingrese la hora de reserva" class="inputcss">
+                <option value="09:00">09:00</option>
+                <option value="12:00">12:00</option>
+                <option value="15:00">15:00</option>
+                <option value="19:00">19:00</option>
+            </select>
+            <!-- Botón que ejecuta el programa de reservas -->
+            <input type="submit" value="Reservar" class="btn-enviar" id="enviar">
+
+        </div>
+    </form> 
+    
+ <script type="text/javascript" src="assets/js/validar.js"></script>   
+</body>
+</html>

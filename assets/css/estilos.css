@@ -1,0 +1,50 @@
+/* Se da formato a la fuente de texto, color de fondo y se definen aspectos generales del diseño del formulario */
+body{font-family: sans-serif; background-color: #845845; box-sizing: border-box;}
+
+form{
+    background-color: rgb(224, 223, 223);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+    border-color: lightblue;
+}
+input{
+    border-radius: 3px;
+    outline: none;
+    margin-bottom: 10px;
+
+    width: 280px;
+    height: 30px;
+}
+
+.inputcss{
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+.inputcss:focus{
+    border-color:  rgb(124, 193, 250);
+}
+.center-content{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+input:invalid {
+    border: 2px solid red;
+  }
+  
+  #especialidad,#hora,#enviar{
+      width: 100%;
+      margin-bottom: 3%;
+      border-color: lightslategrey;
+  }
+
+  #rut,#nombre,#apellidos,#edad,#correo,#fecha{
+    border-color: lightslategrey;
+  }
