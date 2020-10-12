@@ -1,2 +1,4 @@
 # formulario-reserva_hora_medica
-Página de formulario para reservar horas médicas con diferentes especialidades médicas
+Tecnologías usadas: Html5, Css3, Bootstrap4 & Javascript
+
+Descripción: Página de formulario para reservar horas médicas con diferentes especialidades médicas
